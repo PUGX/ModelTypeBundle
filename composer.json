@@ -1,0 +1,38 @@
+{
+    "name": "pugx/model-type-bundle",
+    "description": "Symfony bundle for generic model type",
+    "keywords": ["symfony", "bundle", "form", "type", "ddd", "rich domain"],
+    "homepage": "http://pugx.org/",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Massimiliano Arione",
+            "email": "garakkio@gmail.com"
+        },
+        {
+            "name": "The Community",
+            "homepage": "https://github.com/pugx/modeltypebundle"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/pugx/modeltypebundle/issues"
+    },
+    "require": {
+        "symfony/symfony": "^2.8|^3.1"
+    },
+    "require-dev":{
+        "phpunit/phpunit": "^6.0"
+    },
+    "autoload": {
+        "psr-4": { "PUGX\\ModelTypeBundle\\": "" }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}
